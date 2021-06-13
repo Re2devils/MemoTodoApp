@@ -1,0 +1,86 @@
+table {
+  padding: 0;
+  margin: 0;
+}
+
+html body {
+  background-color: white;
+}
+
+.wrapper .content .today {
+  background-color: #077ccf8f;
+  border-radius: 20px;
+  padding: 15px;
+  width: 100%;
+}
+.wrapper .content .today .today-view {
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .content .today .today-view textarea {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #4590ba;
+  height: auto;
+  font-size: 1rem;
+  padding: 5px;
+  border: none;
+}
+.wrapper .content .add-btn-container {
+  margin: 5px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.wrapper .content .add-btn-container .add {
+  text-align: center;
+}
+.wrapper .content .add-btn-container .add p {
+  font-size: small;
+}
+.wrapper .content .add-btn-container .add .add-btn {
+  border: none;
+  border-radius: 50%;
+  background-color: transparent;
+}
+.wrapper .content .add-btn-container .add .add-btn .i-memo {
+  color: #3705ff;
+}
+.wrapper .content .add-btn-container .add .add-btn .i-todo {
+  color: #e7dd18;
+}
+.wrapper .content .category-view {
+  width: 100%;
+  text-align: center;
+}
+.wrapper .content .category-view .cate-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.wrapper .content .category-view .cate-container .btn {
+  width: 90%;
+  color: white;
+}
+.wrapper .content .category-view .cate-container .all {
+  background-color: #07cd3e;
+}
+.wrapper .content .category-view .cate-container .work {
+  background-color: #07cd92;
+}
+.wrapper .content .category-view .cate-container .travel {
+  background-color: #913cc5;
+}
+.wrapper .content .category-view .cate-container .study {
+  background-color: #f13535;
+}
+.wrapper .content .category-view .cate-container .homework {
+  background-color: #30dbe5;
+}
+.wrapper .content .category-view .cate-container .other {
+  background-color: #5817e2;
+}
+
+/*# sourceMappingURL=mypage-style.css.map */

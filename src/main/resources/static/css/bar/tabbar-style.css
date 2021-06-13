@@ -1,0 +1,35 @@
+html,
+body,
+div,
+img,
+p,
+div,
+input[type="text"],
+i {
+  margin: 0;
+  padding: 0;
+}
+
+.bar-container {
+  padding-bottom: 7px;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 0 10px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+.bar-container .bar-logo img {
+  height: 40px;
+}
+.bar-container .bar-content {
+  display: flex;
+  align-items: center;
+}
+.bar-container .bar-content .bar-item {
+  margin: 0 7px;
+  color: #213549;
+}
+
+/*# sourceMappingURL=tabbar-style.css.map */

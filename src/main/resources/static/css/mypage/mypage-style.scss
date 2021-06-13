@@ -1,0 +1,96 @@
+table {
+  padding: 0;
+  margin: 0;
+}
+
+html body {
+  background-color: white;
+}
+
+.wrapper {
+  // background-color: white;
+  
+  .content {
+    .today {
+      background-color: #077ccf8f;
+      border-radius: 20px;
+      padding: 15px;
+      width: 100%;
+      // text-align: center;
+      .today-view {
+        // text-align: center;
+        // height: 60%;
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        textarea {
+          width: 100%;
+          border-radius: 10px;
+          background-color: #4590ba;
+          height: auto;
+          font-size: 1rem;
+          padding: 5px;
+          border: none;
+        }
+      }
+    }
+    .add-btn-container {
+      margin: 5px 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      .add {
+        text-align: center;
+        p {
+          font-size: small;
+        }
+        .add-btn {
+          border: none;
+          border-radius: 50%;
+          background-color: transparent;
+          .i-memo {
+            color: #3705ff;
+          }
+          .i-todo {
+            color: #e7dd18;
+          }
+        }
+      }
+    }
+    .category-view {
+      width: 100%;
+      text-align: center;
+      .cate-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        .btn {
+          width: 90%;
+          color: white;
+        }
+        .all {
+          background-color: #07cd3e;
+        }
+        .work {
+          background-color: #07cd92;
+        }
+        .travel {
+          background-color: #913cc5;
+        }
+        .study {
+          background-color: #f13535;
+        }
+        .homework {
+          background-color: #30dbe5;
+        }
+        .other {
+          background-color: #5817e2;
+        }
+      }
+    }
+  }
+}
+
+
+

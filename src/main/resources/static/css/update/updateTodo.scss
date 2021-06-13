@@ -1,0 +1,44 @@
+html body {
+  background-color: white;
+}
+.wrapper {
+  .content {
+      font-size: 1.2rem;
+    div {
+      width: 100%;
+      margin: 5px 0;
+    }
+    .place {
+      width: 100%;
+      background-color: #f0efef;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 1px 2px 5px #bebdbd;
+      padding: 10px;
+      font-size: 1.2rem;
+    }
+    textarea {
+      min-width: 100%;
+      border: none;
+      background-color: #f0efef;
+      border-radius: 20px;
+      box-shadow: 1px 2px 5px #bebdbd;
+      padding: 10px;
+      font-size: 1.2rem;
+    }
+    .date-container {
+      display: flex;
+      margin: 10px 0;
+      .date{
+        margin: 0 auto;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 1px 2px 5px #bebdbd;
+        padding: 5px;
+        width: 100%;
+        background-color: #f0efef;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

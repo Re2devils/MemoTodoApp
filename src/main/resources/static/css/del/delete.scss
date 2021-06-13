@@ -1,0 +1,27 @@
+html body {
+  background-color: white;
+}
+.btn{
+    color: white;
+}
+.format-label{
+    display: inline;
+}
+.content {
+    .del-line{
+        width: 100%;
+        display: flex;
+        padding: 10px 0;
+        label {
+            padding: 10px;
+        }
+        p{
+            background-color: rgb(197, 197, 197);
+            width: 100%;
+            padding: 10px;
+        }
+        .task {
+            height: max-content;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+body {
+  background-color: white;
+}
+
+.wrapper {
+  .logo {
+    text-align: center;
+    width: 100%;
+    background-color: white;
+  }
+  .simulation {
+    text-align: center;
+    background-color: #fea8a8;
+    width: 80%;
+    border-radius: 20px;
+    padding: 10px 20px 20px 20px;
+    .simulation-container {
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      .cell {
+        display: flex;
+        justify-content: space-around;
+        .circle {
+          height: 30px;
+          width: 30px;
+          background-color: #213549;
+          border-radius: 50%;
+          padding: 5px;
+          i {
+            color: green;
+          }
+          .fa-times {
+            color: red;
+          }
+          .fa-caret-up {
+            color: orange;
+          }
+        }
+        .rectangle {
+          width: 70%;
+          height: 30px;
+          background-color: #fff205;
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+}

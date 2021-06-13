@@ -1,0 +1,79 @@
+html body {
+  background-color: white;
+}
+
+.wrapper .content {
+  width: 100%;
+  justify-content: flex-start;
+}
+.wrapper .content .add {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.wrapper .content .add p {
+  font-size: small;
+}
+.wrapper .content .add .add-btn {
+  border: none;
+  border-radius: 50%;
+}
+.wrapper .content .add .add-btn .i-memo {
+  color: #3705ff;
+}
+.wrapper .content .add .add-btn .i-todo {
+  color: #e7dd18;
+}
+.wrapper .content .cate-option {
+  width: 100%;
+  margin: 10px 0;
+}
+.wrapper .content .todo-view {
+  width: 100%;
+  background-color: #fef2b4;
+  border-radius: 20px;
+  padding: 10px;
+}
+.wrapper .content .todo-view td {
+  width: 100%;
+  border-radius: 20px;
+  padding: 4px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.212);
+}
+.wrapper .content .todo-view td textarea {
+  min-width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  height: auto;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.wrapper .content .todo-view td .todo-content {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .content .todo-view td .todo-content .btn-wrapper {
+  display: flex;
+}
+.wrapper .content .todo-view td .todo-content .btn-wrapper .frm-btn {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .content .todo-view td .todo-content .btn-wrapper .frm-btn .crud-btn {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 15px;
+  background-color: #07cd3e;
+  color: white;
+  font-weight: bold;
+  margin: 5px;
+}
+.wrapper .content .todo-view td .todo-content .btn-wrapper .frm-btn .crud-btn:last-child {
+  background-color: #c14242;
+}
+
+/*# sourceMappingURL=todo.css.map */

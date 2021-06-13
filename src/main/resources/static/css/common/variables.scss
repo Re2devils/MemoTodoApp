@@ -1,0 +1,10 @@
+$primary-color: #fff200;
+$sub-color: #213549;
+$third-color: #717171;
+
+@mixin flex-option($direction, $justify, $alignItems) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $alignItems;
+}

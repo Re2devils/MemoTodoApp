@@ -1,0 +1,30 @@
+#search-form {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+#search-form div {
+  width: 80%;
+}
+#search-form input[type='text'] {
+  background-color: #eeeeee;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  width: 90%;
+  padding: 0px 10px;
+}
+#search-form i {
+  text-align: center;
+  padding: 10px;
+  background-color: #fff205;
+  border-radius: 20px;
+  height: 40px;
+  width: 60px;
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=search-style.css.map */

@@ -1,0 +1,30 @@
+html body {
+  background-color: white;
+}
+
+.btn {
+  color: white;
+}
+
+.format-label {
+  display: inline;
+}
+
+.content .del-line {
+  width: 100%;
+  display: flex;
+  padding: 10px 0;
+}
+.content .del-line label {
+  padding: 10px;
+}
+.content .del-line p {
+  background-color: #c5c5c5;
+  width: 100%;
+  padding: 10px;
+}
+.content .del-line .task {
+  height: max-content;
+}
+
+/*# sourceMappingURL=delete.css.map */

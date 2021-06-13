@@ -1,0 +1,177 @@
+@import "variables.scss";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body,
+div,
+p,
+i,
+input,
+button,
+object {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: $sub-color;
+}
+.wrapper {
+  padding-top: 30px;
+  display: flex;
+  @include flex-option(column, center, center);
+}
+.logo {
+  margin: 0;
+  padding: 0;
+}
+object {
+  height: max-content;
+  width: 100%;
+}
+.content {
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  min-height: 400px;
+  @include flex-option(column, center, center);
+}
+// form style
+form {
+  width: 100%;
+}
+.input-container {
+  width: 100%;
+  display: flex;
+  border: 1px solid $sub-color;
+  outline: none;
+  margin-bottom: 10px;
+}
+input[type="text"],
+input[type="password"] {
+  min-width: 65%;
+  padding: 6px;
+  margin: 0;
+  border: none;
+  font-size: 1rem;
+}
+
+.format-label {
+  display: inline-block;
+  min-width: 30%;
+  text-align: center;
+  background-color: $sub-color;
+  padding: 5px 0;
+  color: white;
+  font-size: small;
+  margin: 0;
+}
+// hightlight style
+.highlight {
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: $primary-color;
+}
+// error message style
+.err-msg {
+  color: red;
+  margin-bottom: 0;
+  text-align: right;
+}
+// button style
+.btn-container {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+.btn.back {
+  color: white;
+  background-color: $third-color;
+}
+.btn.signin {
+  background-color: $sub-color;
+  color: $primary-color;
+}
+.btn.login {
+  background-color: $primary-color;
+  color: $sub-color;
+}
+.btn.del{
+  background-color: rgb(105, 4, 4);
+}
+.btn {
+  text-align: center;
+  font-size: 20px;
+  padding: 5px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 10px 0;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+// footer style
+.footer {
+  color: white;
+}
+#menu {
+  position: fixed;
+  width: 0;
+  height: 100%;
+  left: -120%;
+  top: 0;
+  background-color: #213549;
+  transition: 0.3s;
+}
+#bar,
+#search {
+  width: 100%;
+}
+
+.finish-btn {
+  width: 30px;
+  height: 30px;
+  background-color: #213549;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  i {
+    color: white;
+  }
+}
+.finished-btn {
+  width: 30px;
+  height: 30px;
+  background-color: #07cd3e;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  text-decoration: line-through;
+  i {
+    color: white;
+  }
+}
+.page-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#cate {
+  width: 30%;
+  font-size: 1rem;
+  padding: 5px;
+  border: none;
+  background-color: #07cd3e;
+  border-radius: 10px;
+}
+.search-btn {
+  background-color: transparent;
+  border: none;
+}
